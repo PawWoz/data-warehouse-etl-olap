@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MultidimensionalProject-fWydatek</Database>
+    <Server>DESKTOP-B9D1R0R</Server>
+    <ConnectionString>Data Source=DESKTOP-B9D1R0R;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>OZNsNuKAvz60Fvo8DenZ5p2UmAA=22.01.2025 22:39:2122.01.2025 21:11:14</TimeStamp>
+        <ID>
+          <String>DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pwEszFgu8RCyJjevHt/JnsSRF28=22.01.2025 21:15:0322.01.2025 21:15:02</TimeStamp>
+        <ID>
+          <String>DWH_View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9qb8HsFs9Xs67iX5sKcKD1zcShA=22.01.2025 22:26:4022.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>d Miejscowosc</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sGPNIvnTlLHdAayyR2WRvL8zcR8=22.01.2025 22:27:0022.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>d Osoba</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>umcI/8gO2Jg5YVSmQ+oOGekmS7Y=22.01.2025 22:27:1922.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>d Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ajb3akGt2lv3Ouwld24/fdROVZs=22.01.2025 22:27:2922.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>d Kategoria Wydatku</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6ZD6TUnqYNh07+5Egk/kaxK+6GE=22.01.2025 22:27:4022.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>d Forma Platnosci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HgGV5TkEH0ZSyQZBYBqaOwy9JB8=22.01.2025 22:27:4022.01.2025 21:17:125B8nZCFjeqTJDZWNyUZP4MJfLz0=22.01.2025 21:17:1322.01.2025 21:17:13</TimeStamp>
+        <ID>
+          <String>DWH_View</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>CjV5XbdzRudGk24+5XMDN463Q3w=22.01.2025 20:31:1522.01.2025 20:31:14</TimeStamp>
+      <ID>
+        <String>MultidimensionalProject-fWydatek</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-01-22T21:39:24.64Z</LastDeployed>
+</DeploymentSnapshot>

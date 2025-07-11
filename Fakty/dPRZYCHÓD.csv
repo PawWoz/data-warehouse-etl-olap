@@ -1,0 +1,8 @@
+Ÿród³o;pr_id;pr_czas;pr_kwota;pr_id_typ_przychodu;pr_id_osoba;pr_opis;pr_czas_poczatek;pr_czas_koniec
+TEST;1;08.02.2020;3 500,00;3;16;Wynagrodzenie;01.01.2020;31.01.2020
+TEST;2;26.01.2020;1 000,00;4;16;Stypendium naukowe;26.12.2019;26.01.2020
+TEST;3;18.01.2020;150;7;16;Sprzeda¿ ksi¹¿ek;18.01.2020;19.01.2020
+TEST;5;10.01.2020;4 141,53;3;16;Wynagrodzenie;01.12.2019;31.12.2019
+TEST;6;16.01.2020;300;6;16;Darowizna;07.01.2020;16.01.2020
+TEST;7;03.02.2020;1 500,00;7;16;Sprzeda¿;30.01.2020;03.02.2020
+TEST;8;14.02.2020;100;8;16;Inne;13.02.2020;14.02.2020

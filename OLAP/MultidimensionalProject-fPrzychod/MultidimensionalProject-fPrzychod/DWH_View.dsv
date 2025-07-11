@@ -1,0 +1,186 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="71d01d6e-c58e-4afd-aec0-c65d1ba8c49b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWH_View</ID>
+  <Name>DWH_View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DWH</DataSourceID>
+  <Schema>
+    <xs:schema id="DWH_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="DWH_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="039f2573-e0bc-40ae-beef-9ba50b89007d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_fPrzychod" msprop:DbTableName="fPrzychod" msprop:FriendlyName="fPrzychod" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="d4660ff5-392a-4aac-86cf-d5c4939592b2">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fPR_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="fPR_id" msprop:DbColumnName="fPR_id" msprop:design-time-name="61c971f1-35a4-40ae-9311-ca48482d113a" type="xs:int" />
+                  <xs:element name="fPR_dOs_id" msprop:FriendlyName="fPR_dOs_id" msprop:DbColumnName="fPR_dOs_id" msprop:design-time-name="2b52b167-6840-49c2-a619-3b1b44a4d6ee" type="xs:int" minOccurs="0" />
+                  <xs:element name="fPR_dTPR_id" msprop:FriendlyName="fPR_dTPR_id" msprop:DbColumnName="fPR_dTPR_id" msprop:design-time-name="8802439b-9a06-4d27-aade-c6fafc1775eb" type="xs:int" minOccurs="0" />
+                  <xs:element name="fPR_dCz_id" msprop:FriendlyName="fPR_dCz_id" msprop:DbColumnName="fPR_dCz_id" msprop:design-time-name="77b088ae-ba09-4b71-9e02-ef354ae6039f" type="xs:int" minOccurs="0" />
+                  <xs:element name="fPR_kwota" msprop:FriendlyName="fPR_kwota" msprop:DbColumnName="fPR_kwota" msprop:design-time-name="82dfe721-ae35-498f-af11-4846ccbc7cc2" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="fPR_czas_trwania" msprop:FriendlyName="fPR_czas_trwania" msprop:DbColumnName="fPR_czas_trwania" msprop:design-time-name="2ca32009-0c3a-4174-8d16-2a85f63abf39" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="fPR_liczba" msprop:FriendlyName="fPR_liczba" msprop:DbColumnName="fPR_liczba" msprop:design-time-name="a7a2ab40-6b0e-4511-b4ed-b938488d5b98" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dOsoba" msprop:DbTableName="dOsoba" msprop:FriendlyName="dOsoba" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="9384b2f9-8ee0-47f9-bb3f-76184cbb8b44">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dOs_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="dOs_id" msprop:DbColumnName="dOs_id" msprop:design-time-name="b4145af9-611c-485b-9eb8-2d13be789fae" type="xs:int" />
+                  <xs:element name="dOs_id_indeks" msprop:FriendlyName="dOs_id_indeks" msprop:DbColumnName="dOs_id_indeks" msprop:design-time-name="c02f328b-b4a9-413c-adeb-8c468d7d9573" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_nazwa" msprop:FriendlyName="dOs_nazwa" msprop:DbColumnName="dOs_nazwa" msprop:design-time-name="61db6c0d-8cc9-4ea5-b0fb-4b0b06fc0a57" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_plec" msprop:FriendlyName="dOs_plec" msprop:DbColumnName="dOs_plec" msprop:design-time-name="85a97f10-77ac-4dd6-9b76-a6815e020a1f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_data_ur" msprop:FriendlyName="dOs_data_ur" msprop:DbColumnName="dOs_data_ur" msprop:design-time-name="5b61db75-2ae9-4784-bbf8-8f58baf7b83c" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="dOs_rocznik" msdata:ReadOnly="true" msprop:FriendlyName="dOs_rocznik" msprop:DbColumnName="dOs_rocznik" msprop:design-time-name="5d06803f-9d39-4250-a118-fc8af4504ccf" type="xs:int" minOccurs="0" />
+                  <xs:element name="dOs_wiek" msdata:ReadOnly="true" msprop:FriendlyName="dOs_wiek" msprop:DbColumnName="dOs_wiek" msprop:design-time-name="37c69371-a4b8-4e8a-a865-655059f1bec0" type="xs:int" minOccurs="0" />
+                  <xs:element name="dOs_miejscowosc_miesz" msprop:FriendlyName="dOs_miejscowosc_miesz" msprop:DbColumnName="dOs_miejscowosc_miesz" msprop:design-time-name="4bebac24-6196-4924-9027-c54f3a97851e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_miejscowosc_studia" msprop:FriendlyName="dOs_miejscowosc_studia" msprop:DbColumnName="dOs_miejscowosc_studia" msprop:design-time-name="d39b1800-69ce-43e6-bb85-7a644bbace06" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_typ_miejscowosc_miesz" msprop:FriendlyName="dOs_typ_miejscowosc_miesz" msprop:DbColumnName="dOs_typ_miejscowosc_miesz" msprop:design-time-name="a42e55a7-575f-4f15-9d7d-3386c120905d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dOs_typ_miejscowosc_studia" msprop:FriendlyName="dOs_typ_miejscowosc_studia" msprop:DbColumnName="dOs_typ_miejscowosc_studia" msprop:design-time-name="63da5078-dfa0-41b4-a2c8-1748cd7b0e2b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dCzas" msprop:DbTableName="dCzas" msprop:FriendlyName="dCzas" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="08fa3658-ae14-440e-b12d-3921e493be4a">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dCz_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="dCz_id" msprop:DbColumnName="dCz_id" msprop:design-time-name="9bd60b62-0164-4723-905c-9c470df3782a" type="xs:int" />
+                  <xs:element name="dCz_dzien" msprop:FriendlyName="dCz_dzien" msprop:DbColumnName="dCz_dzien" msprop:design-time-name="1ce5d11c-6442-444d-b234-c8fcc844f0fd" type="xs:dateTime" />
+                  <xs:element name="dCz_miesiac" msprop:FriendlyName="dCz_miesiac" msprop:DbColumnName="dCz_miesiac" msprop:design-time-name="021115e7-c2d3-454f-91b2-5d05f4022a60" type="xs:dateTime" />
+                  <xs:element name="dCz_rok" msprop:FriendlyName="dCz_rok" msprop:DbColumnName="dCz_rok" msprop:design-time-name="2c54b486-f3cc-4430-a16c-6e1bb5be4957" type="xs:int" />
+                  <xs:element name="dCz_dzien_tygodnia" msprop:FriendlyName="dCz_dzien_tygodnia" msprop:DbColumnName="dCz_dzien_tygodnia" msprop:design-time-name="beadc045-0b56-4f3e-b81a-b3675e2b160f" type="xs:int" />
+                  <xs:element name="dCz_nazwa_dt" msprop:FriendlyName="dCz_nazwa_dt" msprop:DbColumnName="dCz_nazwa_dt" msprop:design-time-name="1d66d14f-a91d-4cdf-ae26-bae7632ab9f0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dTypPrzychodu" msprop:DbTableName="dTypPrzychodu" msprop:FriendlyName="dTypPrzychodu" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="d3b50bfc-ffab-49a1-859f-dffb040d18b0">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dTPr_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="dTPr_id" msprop:DbColumnName="dTPr_id" msprop:design-time-name="fe92e935-421b-498c-8ca4-f11524ae6f30" type="xs:int" />
+                  <xs:element name="dTPr_nazwa" msprop:FriendlyName="dTPr_nazwa" msprop:DbColumnName="dTPr_nazwa" msprop:design-time-name="307a457c-6143-4548-859d-22c53caba079">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_fPrzychod" />
+          <xs:field xpath="fPR_id" />
+        </xs:unique>
+        <xs:unique name="dbo_dOsoba_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dOsoba" />
+          <xs:field xpath="dOs_id" />
+        </xs:unique>
+        <xs:unique name="dbo_dCzas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dCzas" />
+          <xs:field xpath="dCz_id" />
+        </xs:unique>
+        <xs:unique name="dbo_dTypPrzychodu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dTypPrzychodu" />
+          <xs:field xpath="dTPr_id" />
+        </xs:unique>
+        <xs:keyref name="FK__fPrzychod__fPR_d__33D4B598" refer="dbo_dCzas_Constraint1">
+          <xs:selector xpath=".//dbo_fPrzychod" />
+          <xs:field xpath="fPR_dCz_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__fPrzychod__fPR_d__31EC6D26" refer="dbo_dOsoba_Constraint1">
+          <xs:selector xpath=".//dbo_fPrzychod" />
+          <xs:field xpath="fPR_dOs_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__fPrzychod__fPR_d__32E0915F" refer="dbo_dTypPrzychodu_Constraint1">
+          <xs:selector xpath=".//dbo_fPrzychod" />
+          <xs:field xpath="fPR_dTPR_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <DWH_View xmlns="" />
+  </Schema>
+</DataSourceView>

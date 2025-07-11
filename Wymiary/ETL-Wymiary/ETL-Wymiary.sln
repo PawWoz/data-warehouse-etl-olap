@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL-Wymiary", "ETL-Wymiary\ETL-Wymiary.dtproj", "{9FDD34B6-8682-419A-A156-0717A6272398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDD34B6-8682-419A-A156-0717A6272398}.Development|Default.ActiveCfg = Development
+		{9FDD34B6-8682-419A-A156-0717A6272398}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1FD5B78-4422-485A-9797-AAFC3338362E}
+	EndGlobalSection
+EndGlobal

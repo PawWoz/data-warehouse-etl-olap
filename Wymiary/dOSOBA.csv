@@ -1,0 +1,4 @@
+os_id;os_nazwa;os_p³eæ;os_id_typ_wykszta³cenia;os_rocznik;os_wiek;os_data_urodzenia;os_id_miejscowoœæ_zam;os_id_miejscowoœæ_studia;os_indeks;os_typ_miejscowoœæ_zam;os_typ_miejscowoœæ_stud
+17;Pawe³ Wozignój;M;wy¿sze;2003;21;25.01.2003;Niechcice;£ódŸ;406283;wiejskie;wojewódzkie
+18;Janek £awka;M;œrednie;2000;24;11.07.2000;Piotrków Trybunalski;Piotrków Trybunalski;123456;powiatowe;powiatowe
+19;Antonina Grzybowska;K;œrednie;2004;20;15.05.2004;Rozprza;Warszawa;642123;gminne;wojewódzkie

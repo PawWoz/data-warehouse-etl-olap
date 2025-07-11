@@ -1,0 +1,18 @@
+108,apteka,Zdrowie,1,11,apteka,Zdrowie,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,108,apteka,11,apteka
+116,autobus,Transport,4,12,autobus,Transport,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,116,autobus,12,autobus
+114,benzyna,Transport,4,13,benzyna,Transport,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,114,benzyna,13,benzyna
+112,buty,Garderoba,3,14,buty,Garderoba,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,112,buty,14,buty
+104,czesne,Op³aty,5,15,czesne,Op³aty,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,104,czesne,15,czesne
+117,fizjoterapeuta,Zdrowie,1,16,fizjoterapeuta,Zdrowie,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,117,fizjoterapeuta,16,fizjoterapeuta
+111,fryzjer,Kosmetyki,8,17,fryzjer,Kosmetyki,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,111,fryzjer,17,fryzjer
+110,higiena,Kosmetyki,8,18,higiena,Kosmetyki,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,110,higiena,18,higiena
+102,jedzenie,Spo¿ywcze,7,19,jedzenie,Spo¿ywcze,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,102,jedzenie,19,jedzenie
+107,lekarz,Zdrowie,1,20,lekarz,Zdrowie,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,107,lekarz,20,lekarz
+106,mieszkanie,Op³aty,5,21,mieszkanie,Op³aty,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,106,mieszkanie,21,mieszkanie
+109,op³ata pozosta³e,Op³aty,5,5,op³aty pozosta³e,Op³aty,0,91813785,0,98750001,0,87302554,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,109,op³ata pozosta³e,5,op³aty pozosta³e
+101,pozosta³e,inne,9,10,pozosta³e,Inne,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,101,pozosta³e,10,pozosta³e
+100,pozosta³e,Inne,9,10,pozosta³e,Inne,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,100,pozosta³e,10,pozosta³e
+115,taxi,Transport,4,22,taxi,Transport,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,115,taxi,22,taxi
+113,ubranie,Garderoba,3,23,ubranie,Garderoba,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,113,ubranie,23,ubranie
+105,u¿ywki,Spo¿ywcze,7,24,u¿ywki,Spo¿ywcze,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,105,u¿ywki,24,u¿ywki
+103,zajêcia sportowe,Rozrywka,6,25,zajêcia sportowe,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_WYDATKU,dKategoriaWydatku,103,zajêcia sportowe,25,zajêcia sportowe

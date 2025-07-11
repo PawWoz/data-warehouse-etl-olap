@@ -1,0 +1,9 @@
+26,Be³chatów,powiatowe,,,,0,0,0,0
+29,Czy¿ów,wiejskie,,,,0,0,0,0
+28,Kleszczów,gminne,,,,0,0,0,0
+25,Kraków,wojewódzkie,1,£ódŸ,wojewódzkie,0,3125,0,98750001,0,0125,1
+23,Niechcice,wiejskie,,,,0,0,0,0
+21,Piotrków Trybunalski,powiatowe,,,,0,0,0,0
+22,Rozprza,gminne,,,,0,0,0,0
+24,Warszawa,wojewódzkie,1,£ódŸ,wojewódzkie,0,38554686,0,98750001,0,0125,1
+27,Wroc³aw,wojewódzkie,1,£ódŸ,wojewódzkie,0,39598215,0,98750001,0,0125,1

@@ -1,0 +1,15 @@
+apteka,Zdrowie,1,zdrowie pozosta³e,Zdrowie,0,3801032,0,71446514,0,0125,1
+autobus,Transport,4,transport pozosta³e,Transport,0,44773799,0,98750001,0,0125,1
+benzyna,Transport,4,transport pozosta³e,Transport,0,44773799,0,98750001,0,0125,1
+buty,Garderoba,3,garderoba pozosta³e,Garderoba,0,3801032,0,85887045,0,0125,1
+czesne,Op³aty,5,op³aty pozosta³e,Op³aty,0,46639526,0,85058743,0,0125,1
+fizjoterapeuta,Zdrowie,1,zdrowie pozosta³e,Zdrowie,0,46706221,0,96670413,0,0125,1
+fryzjer,Kosmetyki,8,kosmetyki pozosta³e,Kosmetyki,0,3801032,0,7934559,0,0125,1
+higiena,Kosmetyki,8,kosmetyki pozosta³e,Kosmetyki,0,44773799,0,94449574,0,0125,1
+jedzenie,Spo¿ywcze,7,spo¿ywcze pozosta³e,Spo¿ywcze,0,50522757,0,87875873,0,0125,1
+lekarz,Zdrowie,1,zdrowie pozosta³e,Zdrowie,0,3801032,0,96186548,0,0125,1
+mieszkanie,Op³aty,5,op³aty pozosta³e,Op³aty,0,44097453,0,95485115,0,0125,1
+taxi,Transport,4,transport pozosta³e,Transport,0,51537275,0,98750001,0,0125,1
+ubranie,Garderoba,3,garderoba pozosta³e,Garderoba,0,44773799,0,88213229,0,0125,1
+u¿ywki,Spo¿ywcze,7,spo¿ywcze pozosta³e,Spo¿ywcze,0,58300757,0,88079798,7,2394438E-2,1
+zajêcia sportowe,Rozrywka,6,rozrywka pozosta³e,Rozrywka,0,4030146,0,91971695,0,0125,1

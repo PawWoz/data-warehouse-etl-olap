@@ -1,0 +1,12 @@
+10,Bieganie,Aktywnoœæ fizyczna,1,Bieganie,Aktywnoœæ fizyczna,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,10,Bieganie,1,Bieganie
+2,Czytanie ksi¹¿ki,Nauka i edukacja,2,Czytanie ksi¹¿ki,Nauka i edukacja,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,2,Czytanie ksi¹¿ki,2,Czytanie ksi¹¿ki
+8,Galeria handlowa,Rozrywka,3,Galeria handlowa,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,8,Galeria handlowa,3,Galeria handlowa
+9,Gra na komputerze,Rozrywka,4,Gra na komputerze,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,9,Gra na komputerze,4,Gra na komputerze
+5,Impreza,Rozrywka,5,Impreza,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,5,Impreza,5,Impreza
+3,Jedzenie na mieœcie,Rozrywka,6,Jedzenie na mieœcie,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,3,Jedzenie na mieœcie,6,Jedzenie na mieœcie
+4,Kino,Rozrywka,7,Kino,Rozrywka,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,4,Kino,7,Kino
+1,Projekt,Nauka i edukacja,8,Projekt,Nauka i edukacja,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,1,Projekt,8,Projekt
+12,silownia,aktywnosc fizyczna,9,silownia,aktywnosc fizyczna,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,12,silownia,9,silownia
+11,Si³ownia,Aktywnoœæ fizyczna,10,Si³ownia,Aktywnoœæ fizyczna,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,11,Si³ownia,10,Si³ownia
+7,Zakupy odzie¿owe,Zakupy,11,Zakupy odzie¿owe,Zakupy,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,7,Zakupy odzie¿owe,11,Zakupy odzie¿owe
+6,Zakupy spo¿ywcze,Zakupy,12,Zakupy spo¿ywcze,Zakupy,1,1,1,1,OK,TEST,KATEGORIA_CZASU,dKategoriaCzasu,6,Zakupy spo¿ywcze,12,Zakupy spo¿ywcze

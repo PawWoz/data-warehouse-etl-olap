@@ -1,0 +1,370 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="24559862-3a07-481f-9a25-a25082d999c4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>d Osoba</ID>
+  <Name>d Osoba</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3367" scrolltop="-3926" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11769" y="12679" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dOsoba" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4995" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000083130000da120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dOsoba" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3367</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3926</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="23efdef7-eafc-4337-9efb-39e0549d01ff">
+    <DataSourceViewID>DWH_View</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="3c55b863-e9af-442e-9d28-2cb52a667d11">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="79cb53b0-1e8f-4633-b4ca-735df82f515a">
+      <ID>d Os Id</ID>
+      <Name>d Os Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="658d4cef-b87b-4d86-bf1d-c674b9e4bede">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="31684200-7b97-4159-91d4-e93f31c112a5">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e673da8f-809d-44a9-aa89-baeb5061ba1f">
+          <AttributeID>d Os Id Indeks</AttributeID>
+          <Name>d Os Id Indeks</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c3b83d57-fb4d-4feb-b8d6-35c9f801cefd">
+          <AttributeID>d Os Nazwa</AttributeID>
+          <Name>d Os Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d20e5ea0-9cb6-486e-9674-a1036b2e1887">
+          <AttributeID>d Os Plec</AttributeID>
+          <Name>d Os Plec</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ebc6927e-f0f4-404a-acb2-2efd4772b927">
+          <AttributeID>d Os Data Ur</AttributeID>
+          <Name>d Os Data Ur</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d2d12054-e556-4824-835e-021cb365cc43">
+          <AttributeID>d Os Rocznik</AttributeID>
+          <Name>d Os Rocznik</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c9efd859-3254-46a6-84b9-886ed91807dc">
+          <AttributeID>d Os Wiek</AttributeID>
+          <Name>d Os Wiek</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="81d13ff5-3548-400e-8e0c-7c60ab858228">
+          <AttributeID>d Os Miejscowosc Miesz</AttributeID>
+          <Name>d Os Miejscowosc Miesz</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a20df117-9907-4f79-9ce9-37bf43a2277c">
+          <AttributeID>d Os Miejscowosc Studia</AttributeID>
+          <Name>d Os Miejscowosc Studia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="db19d992-94fe-4368-af13-17c0b438c7e4">
+          <AttributeID>d Os Typ Miejscowosc Miesz</AttributeID>
+          <Name>d Os Typ Miejscowosc Miesz</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6a4fd1b3-ffa5-44fb-97ee-1b59258370ee">
+          <AttributeID>d Os Typ Miejscowosc Studia</AttributeID>
+          <Name>d Os Typ Miejscowosc Studia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fd97e7b5-7c44-4c6a-8def-08c6a58911d0">
+          <AttributeID>d Os Id 1</AttributeID>
+          <Name>d Os Id 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="080eaaa6-c323-483e-a088-c1acea7ab524">
+      <ID>d Os Id Indeks</ID>
+      <Name>d Os Id Indeks</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d21ae3c3-83d6-467a-9e9c-6737b2cb285b">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="86ae6116-e405-4f9d-bb9d-22e848847c7d">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_id_indeks</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02c5ce73-8287-45b3-930c-5ea2c663c43a">
+      <ID>d Os Nazwa</ID>
+      <Name>d Os Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5cab5134-ec57-4c62-b885-ba207b2c9947">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1aaaf445-e3e7-4924-8908-43665546c879">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1b47fb8d-06f4-4a64-ad87-1966a571af77">
+      <ID>d Os Plec</ID>
+      <Name>d Os Plec</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d0e73d5-9e36-49fd-b569-b3fbd3176f11">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4ce05f1-56fe-4fe6-90e0-dbdcd0b01004">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_plec</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7575bcfb-77c5-4838-9ac8-cf2584127776">
+      <ID>d Os Data Ur</ID>
+      <Name>d Os Data Ur</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="55d580d7-5416-4a0a-80f6-a8726484bde4">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="096f2dac-783c-4928-9f49-1d393b68e03d">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_data_ur</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df6206e1-b35a-4b16-8863-9d9d00e54a5c">
+      <ID>d Os Rocznik</ID>
+      <Name>d Os Rocznik</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0243a926-e80a-4e62-96e4-00535a685d44">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ddf730b-f195-4c5e-a1fe-118c5e664cf7">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_rocznik</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="384d77ae-5ebc-4b53-990c-61b713a958a0">
+      <ID>d Os Wiek</ID>
+      <Name>d Os Wiek</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b7b441b-193e-4032-93de-8544518b87be">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5118ae3-e7f5-48ca-b504-09e4bc770065">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_wiek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="22828e9d-f769-4a57-b83a-427fde5f0b3c">
+      <ID>d Os Miejscowosc Miesz</ID>
+      <Name>d Os Miejscowosc Miesz</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba6f1480-f63e-4790-8006-8e38bb178667">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ac7b007-f0ce-4209-9caa-2c5102c3b79f">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_miejscowosc_miesz</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ab6c2ae3-affd-4564-9fdb-991cb466bdfc">
+      <ID>d Os Miejscowosc Studia</ID>
+      <Name>d Os Miejscowosc Studia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="722c9551-4522-4b63-b2c4-6e8ed5d97e0c">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d52140a0-8fa9-4a23-90dd-191f4ce99b9c">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_miejscowosc_studia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb510a05-5d94-45c6-ab42-35ff54374b9b">
+      <ID>d Os Typ Miejscowosc Miesz</ID>
+      <Name>d Os Typ Miejscowosc Miesz</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe6aa206-e9a7-405b-9a21-e14d45dfdfe7">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="30c42875-7d04-4f56-a2be-bb991d8702a1">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_typ_miejscowosc_miesz</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bfb02cf4-0a38-4ba0-9d1f-658b7b7f7e3b">
+      <ID>d Os Typ Miejscowosc Studia</ID>
+      <Name>d Os Typ Miejscowosc Studia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7594ac3d-30a8-4b68-b8d2-784c9bb93b3e">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ce4a144-392c-41a3-9a31-b5b38449a69b">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_typ_miejscowosc_studia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fd94e68d-1927-43ab-b28a-a7198f8fe08f">
+      <ID>d Os Id 1</ID>
+      <Name>d Os Id 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="17e4a2de-5d46-4b93-819f-afa88c98b5d2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="304058b2-d94d-4525-a8a8-42acecd86a6b">
+            <TableID>dbo_dOsoba</TableID>
+            <ColumnID>dOs_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="2542f8df-6ed3-4f70-b563-cf7df8923c3d">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="9403975b-abfb-494e-a04c-4b0ff71b18bf">
+          <ID>d Os Typ Miejscowosc Miesz</ID>
+          <Name>d Os Typ Miejscowosc Miesz</Name>
+          <SourceAttributeID>d Os Typ Miejscowosc Miesz</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="35cfaa23-c08e-44bb-a0bf-8a2936e9c91f">
+          <ID>d Os Miejscowosc Miesz</ID>
+          <Name>d Os Miejscowosc Miesz</Name>
+          <SourceAttributeID>d Os Miejscowosc Miesz</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="402ecdcc-45c1-4c81-80ce-3795cc3d91c1">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchy 1</Name>
+      <Levels>
+        <Level dwd:design-time-name="45c919da-1312-48c8-a8bf-043848da1cb7">
+          <ID>d Os Typ Miejscowosc Studia</ID>
+          <Name>d Os Typ Miejscowosc Studia</Name>
+          <SourceAttributeID>d Os Typ Miejscowosc Studia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c247a3f8-ef51-4798-b571-2d8699f61a8b">
+          <ID>d Os Miejscowosc Studia</ID>
+          <Name>d Os Miejscowosc Studia</Name>
+          <SourceAttributeID>d Os Miejscowosc Studia</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="9c960543-886b-4c10-8010-54573c0dab53">
+      <ID>Hierarchy 2</ID>
+      <Name>Hierarchy 2</Name>
+      <Levels>
+        <Level dwd:design-time-name="23df2751-b3c4-491a-a5c3-9357a22e9836">
+          <ID>d Os Rocznik</ID>
+          <Name>d Os Rocznik</Name>
+          <SourceAttributeID>d Os Rocznik</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2955e93f-23b5-42c2-b849-7075fc24287a">
+          <ID>d Os Wiek</ID>
+          <Name>d Os Wiek</Name>
+          <SourceAttributeID>d Os Wiek</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

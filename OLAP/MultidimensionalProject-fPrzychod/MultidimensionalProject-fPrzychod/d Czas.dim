@@ -1,0 +1,247 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fdd3150b-0a4c-48d5-9217-a43364bc0fb7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>d Czas</ID>
+  <Name>d Czas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3970" scrolltop="-4826" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11769" y="12679" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dCzas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3789" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cd0e0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dCzas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3970</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4826</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ac3a43c-ddc2-47f7-b998-293d7b030b9b">
+    <DataSourceViewID>DWH_View</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="958c9838-63dc-42ef-aba8-d1818d8821ac">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b99fcbb3-6b83-433d-85d2-e8b53174aa6e">
+      <ID>d Cz Id</ID>
+      <Name>d Cz Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2453251f-b04a-4e16-a0cf-366ee7647650">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5dd0447f-9545-4f46-aa3b-5740155c865b">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="332be5d4-3145-4d63-b3a3-29eafed1a453">
+          <AttributeID>d Cz Id 1</AttributeID>
+          <Name>d Cz Id 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6c577ec1-d941-490e-bc72-198a41b3c821">
+          <AttributeID>d Cz Dzien</AttributeID>
+          <Name>d Cz Dzien</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ad7da63-f9a2-4d0c-964c-0b736bcc2037">
+          <AttributeID>d Cz Miesiac</AttributeID>
+          <Name>d Cz Miesiac</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f3d833e-37cf-417e-9bec-085b62237fad">
+          <AttributeID>d Cz Rok</AttributeID>
+          <Name>d Cz Rok</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3a1a64ed-6e7d-442e-8b7d-66d521305ebc">
+          <AttributeID>d Cz Dzien Tygodnia</AttributeID>
+          <Name>d Cz Dzien Tygodnia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ec0a417-9044-45ca-ad3f-86c8b3463dab">
+          <AttributeID>d Cz Nazwa Dt</AttributeID>
+          <Name>d Cz Nazwa Dt</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c3bf59de-75b5-4c80-813b-92ab266d928d">
+      <ID>d Cz Id 1</ID>
+      <Name>d Cz Id 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60d97bc1-6dbc-4101-88e2-d1ccf5f50a86">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fec44079-aa28-4959-a70a-839b828096b6">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dfdc292f-3678-4285-bcfb-d6730c87ca39">
+      <ID>d Cz Dzien</ID>
+      <Name>d Cz Dzien</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ddd3dd8f-4564-4cdf-85ad-f25e65582780">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b32d32fb-409f-4eb5-ade7-2209cf80d73a">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_dzien</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6b93a951-e928-4896-962a-c20698d129e3">
+      <ID>d Cz Miesiac</ID>
+      <Name>d Cz Miesiac</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5fdd00c-aecc-4c48-9f3d-9d2d9521a03c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f0c327b-9e5c-479e-83aa-885aa8b529df">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_miesiac</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66a6fb42-bfed-4ff2-a830-866b9be8e74d">
+      <ID>d Cz Rok</ID>
+      <Name>d Cz Rok</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="edf7b32d-73d1-4a23-8826-7925d3597260">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d03b48d1-0ba8-472c-940a-9d70a8d2b88d">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_rok</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="70c80fb7-28e6-47ad-bcf0-fad6862327f7">
+      <ID>d Cz Dzien Tygodnia</ID>
+      <Name>d Cz Dzien Tygodnia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5fca457-d2d8-4880-980e-b4096448a9d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd5c2b50-c1d5-49ef-bc54-8b35be9fe626">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_dzien_tygodnia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6e8d8d8c-b00a-42a1-9b5c-e8a00aaad0cd">
+      <ID>d Cz Nazwa Dt</ID>
+      <Name>d Cz Nazwa Dt</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="835e7af8-3e14-439e-b75e-9082474c5299">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c014090a-1d20-4230-912d-412db334fd12">
+            <TableID>dbo_dCzas</TableID>
+            <ColumnID>dCz_nazwa_dt</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="7b7450b9-3e52-42a2-9e95-1ce7917d85b0">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="d06f8119-52f3-48f2-a8cb-95f6332bdd1d">
+          <ID>d Cz Rok</ID>
+          <Name>d Cz Rok</Name>
+          <SourceAttributeID>d Cz Rok</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f3efedf1-ff2e-40cb-88db-208db6ed18f7">
+          <ID>d Cz Miesiac</ID>
+          <Name>d Cz Miesiac</Name>
+          <SourceAttributeID>d Cz Miesiac</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fda1963f-5e3f-48fc-b2a3-e068a748389b">
+          <ID>d Cz Dzien</ID>
+          <Name>d Cz Dzien</Name>
+          <SourceAttributeID>d Cz Dzien</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a06ba8e5-2f87-46b4-bed1-d3eced7cf350">
+          <ID>d Cz Nazwa Dt</ID>
+          <Name>d Cz Nazwa Dt</Name>
+          <SourceAttributeID>d Cz Nazwa Dt</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

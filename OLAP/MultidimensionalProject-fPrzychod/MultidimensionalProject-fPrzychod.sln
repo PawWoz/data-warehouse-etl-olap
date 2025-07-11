@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject-fPrzychod", "MultidimensionalProject-fPrzychod\MultidimensionalProject-fPrzychod.dwproj", "{624950A6-5530-4F79-BABF-E4B0A92FD724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624950A6-5530-4F79-BABF-E4B0A92FD724}.Development|Default.ActiveCfg = Development
+		{624950A6-5530-4F79-BABF-E4B0A92FD724}.Development|Default.Build.0 = Development
+		{624950A6-5530-4F79-BABF-E4B0A92FD724}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42649B23-327F-4DF0-9653-7D3445B06C90}
+	EndGlobalSection
+EndGlobal
