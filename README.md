@@ -8,6 +8,9 @@ This project involves extending a source database and designing, implementing, a
 
 The project is based on the source relational database **"Baza Finanse i Czas.accdb"** (MS Access), which was extended to track time spent on various activities alongside financial data such as income and expenses. The data warehouse enables comprehensive analysis and supports business decision-making.
 
+> 📄 **Full project documentation available here:**  
+> [DOKUMENTACJA.docx](https://github.com/PawWoz/data-warehouse-etl-olap/blob/main/DOKUMENTACJA.docx)
+
 ---
 
 ## 🎯 Project Requirements
