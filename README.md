@@ -11,6 +11,20 @@ The project is based on the source relational database **"Baza Finanse i Czas.ac
 > 📄 **Full project documentation available here:**  
 > [DOKUMENTACJA.docx](https://github.com/PawWoz/data-warehouse-etl-olap/blob/main/DOKUMENTACJA.docx)
 
+<div align="center">
+
+[![Data Warehouse](https://img.shields.io/badge/Data_Warehouse-4B8BBE?style=for-the-badge&logo=data&logoColor=white)](https://en.wikipedia.org/wiki/Data_warehouse)
+[![OLAP](https://img.shields.io/badge/OLAP-008080?style=for-the-badge&logo=databricks&logoColor=white)](https://en.wikipedia.org/wiki/Online_analytical_processing)
+[![ETL](https://img.shields.io/badge/ETL-6A1B9A?style=for-the-badge&logo=airbyte&logoColor=white)](https://en.wikipedia.org/wiki/Extract,_transform,_load)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
+[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
+[![Microsoft Access](https://img.shields.io/badge/Microsoft_Access-A4373A?style=for-the-badge&logo=microsoft-access&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/access)
+[![SSIS](https://img.shields.io/badge/SSIS-0078D7?style=for-the-badge&logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/sql/integration-services/)
+[![SSAS](https://img.shields.io/badge/SSAS-003B57?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/sql/analysis-services/)
+
+</div>
+
+
 ---
 
 ## 🎯 Project Requirements
